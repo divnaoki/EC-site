@@ -4,11 +4,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
   <title>TOTALLY</title>
 </head>
 <body>
-  <header>
-    <h1><a href="#">TOTALLY</a></h1>
+  <header id="header" class="wrapper">
+    <h1 class="site_title"><a href="#">TOTALLY</a></h1>
     <nav>
       <ul>
         <li><a href="#">ALL</a></li>
@@ -24,87 +25,89 @@
       </ul>
     </nav>
   </header>
-  <main>
+  <main class="wrapper">
     <img src="img/main_visual.jpeg" alt="main_visual">
-    <h2>TOTALLY Short Sleeve Shirt</h2>
-    <p>テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキスト</p>
-    <span>¥9,999+tax</span>
-    <form action="">
+    <div class="text_zone">
+      <h2>TOTALLY Short Sleeve Shirt</h2>
+      <p>テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキストテキストテキストテキストテキスト テキストテキストテキスト</p>
+      <span>¥9,999+tax</span>
+      <form action="">
+        <table>
+          <thead>
+            <tr>
+              <th>Color</th>
+              <th>Size</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>White</td>
+              <td>S</td>
+              <td>
+                <select name="select" id="select_number">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>White</td>
+              <td>M</td>
+              <td>
+                <select name="select" id="select_number">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+              </td>
+            </tr>
+            <tr>
+              <td>White</td>
+              <td>L</td>
+              <td>
+                <select name="select" id="select_number">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                </select>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <input type="submit" value="ADD TO CART">
+      </form>
       <table>
         <thead>
           <tr>
-            <th>Color</th>
             <th>Size</th>
+            <th>Chest</th>
+            <th>Weist</th>
+            <th>Height</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>White</td>
             <td>S</td>
-            <td>
-              <select name="select" id="select_number">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-              </select>
-            </td>
+            <td>99~99</td>
+            <td>99~99</td>
+            <td>99~99</td>
           </tr>
           <tr>
-            <td>White</td>
             <td>M</td>
-            <td>
-              <select name="select" id="select_number">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-              </select>
-            </td>
+            <td>99~99</td>
+            <td>99~99</td>
+            <td>99~99</td>
           </tr>
           <tr>
-            <td>White</td>
             <td>L</td>
-            <td>
-              <select name="select" id="select_number">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-              </select>
-            </td>
+            <td>99~99</td>
+            <td>99~99</td>
+            <td>99~99</td>
           </tr>
         </tbody>
       </table>
-      <input type="submit" value="ADD TO CART">
-    </form>
-    <table>
-      <thead>
-        <tr>
-          <th>Size</th>
-          <th>Chest</th>
-          <th>Weist</th>
-          <th>Height</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>S</td>
-          <td>99~99</td>
-          <td>99~99</td>
-          <td>99~99</td>
-        </tr>
-        <tr>
-          <td>M</td>
-          <td>99~99</td>
-          <td>99~99</td>
-          <td>99~99</td>
-        </tr>
-        <tr>
-          <td>L</td>
-          <td>99~99</td>
-          <td>99~99</td>
-          <td>99~99</td>
-        </tr>
-      </tbody>
-    </table>
+    </div>
   </main>
 
   <footer>
